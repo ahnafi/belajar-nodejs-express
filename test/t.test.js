@@ -4,6 +4,6 @@ const app = express();
 
 app.get("/", (req, res) => {});
 
-test("redirect ", async () => {
+test(" ", async () => {
   const response = await request(app).get("/");
 });
